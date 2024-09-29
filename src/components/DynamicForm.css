@@ -1,0 +1,38 @@
+.dynamic-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.dynamic-form-title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.dynamic-form-field {
+  margin-bottom: 15px;
+}
+
+.dynamic-form-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
