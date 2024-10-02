@@ -13,7 +13,7 @@ const DynamicForm = ({ schema }) => {
 
   return (
     <div>
-      <h2>Generated Form</h2>
+      <h2>Dynamic Form</h2>
       <Form
         schema={schema}
         validator={validator}

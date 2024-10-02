@@ -1,0 +1,57 @@
+.dynamic-form {
+  max-width: 400px; /* Set a max width for the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px; /* Add padding inside the form */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #ffffff; /* White background */
+}
+
+.form-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-family: 'Arial', sans-serif; /* Font styling */
+  font-size: 24px; /* Font size for title */
+  color: #333; /* Dark text color */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space below each group */
+}
+
+.form-label {
+  display: block; /* Block display for label */
+  margin-bottom: 5px; /* Space below label */
+  font-weight: bold; /* Bold text for labels */
+  color: #555; /* Medium dark color */
+}
+
+.form-input {
+  width: 95%; /* Full width */
+  padding: 10px; /* Padding inside input */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+.form-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove outline */
+}
+
+.submit-button {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for button */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 16px; /* Font size for button */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

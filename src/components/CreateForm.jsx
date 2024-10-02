@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './CreateForm.css'; // Ensure the CSS file is properly linked
 import DynamicForm from './DynamicForm'; // Import the DynamicForm component
+import SimpleDynamicForm from './SimpleDynamicForm';
 
 const CreateForm = () => {
   const [formFields, setFormFields] = useState({
@@ -42,6 +43,7 @@ const CreateForm = () => {
   };
 
   return (
+    <div>
     <div className="form-container">
       <h2 className="form-title">FormFlux</h2>
       <div className="form-fields">
@@ -60,9 +62,10 @@ const CreateForm = () => {
       <button className="create-button" onClick={handleCreateForm}>
         Create Form
       </button>
-
+        </div>
       {/* Conditionally render the DynamicForm only after "Create Form" is clicked */}
-      {schema && <DynamicForm schema={schema} />}
+      {schema && <SimpleDynamicForm schema={schema} />}
+      {/* {schema && <DynamicForm schema={schema} />} */}
     </div>
   );
 };
